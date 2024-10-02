@@ -136,3 +136,30 @@ a {
     text-align: center;
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        padding: 1rem;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+
+    ol,
+    ul {
+        margin-left: 0;
+    }
+
+    li {
+        margin-left: 0;
+    }
+
+    #mainContainer,
+    #footerContainer {
+        width: 85dvw;
+    }
+
+    #featuredIn>p {
+        line-height: 1.2rem;
+    }
+}
