@@ -1,5 +1,6 @@
 /* Uso REM e non EM perché coì è tutto relativo all'elemento HTML */
 
+/* ***** Definisco i TAG *****  */
 body {
     font-family: "Merriweather", serif;
     font-weight: 400;
@@ -44,7 +45,9 @@ a {
     color: #4D9C65;
 }
 
-/* Alcuni colori non sono usati ma li tengo per mremo... */
+
+/* ***** Definisco le CLASSI *****  */
+/* Alcuni colori non sono usati ma li tengo per memo... */
 /* Non si sa mai! */
 .azzurro {
     color: #91D3D4;
@@ -82,6 +85,8 @@ a {
     font-weight: bold;
 }
 
+
+/* ***** Definisco gli ID *****  */
 #logo {
     margin-left: auto;
     margin-right: auto;
