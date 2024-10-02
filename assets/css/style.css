@@ -1,0 +1,133 @@
+/* Uso REM e non EM perché coì è tutto relativo all'elemento HTML */
+
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    padding: 2rem 2rem 0rem 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #C4F3F2;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+h3 {
+    padding-top: 1.25rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: .9rem;
+}
+
+ol,
+ul {
+    margin-left: .75rem;
+}
+
+li {
+    margin-bottom: .75rem;
+}
+
+a {
+    color: #4D9C65;
+}
+
+/* Alcuni colori non sono usati ma li tengo per mremo... */
+/* Non si sa mai! */
+.azzurro {
+    color: #91D3D4;
+}
+
+.azzurroChiaro {
+    color: #C4F3F2;
+}
+
+.verde {
+    color: #4D9C65;
+}
+
+.ciano {
+    color: #004D4C;
+}
+
+.giallino {
+    color: #FFD877
+}
+
+.giallinoChiaro {
+    color: #FDFBF1
+}
+
+.arangio {
+    color: #B5460F;
+}
+
+.grigio {
+    color: #999999;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logoImage {
+    height: 60px;
+}
+
+#claim {
+    border-top: 1px solid #FFD877;
+    background-color: #FDFBF1;
+    padding-bottom: .25rem;
+}
+
+#claim>p {
+    font-size: .75rem;
+}
+
+#featuredIn {
+    margin-top: 3rem;
+    border-left: 1px solid#FFD877;
+    padding-left: 1rem;
+    line-height: 70%;
+}
+
+#featuredIn>p {
+    color: #B5460F;
+    font-weight: bold;
+}
+
+#mainContainer,
+#footerContainer {
+    width: 40dvw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#featuredImage {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#imageCapition {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
