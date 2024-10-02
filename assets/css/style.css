@@ -88,8 +88,7 @@ a {
 
 /* ***** Definisco gli ID *****  */
 #logo {
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 1em;
 }
 
 #logoImage {
@@ -113,7 +112,7 @@ a {
     line-height: 70%;
 }
 
-#featuredIn>p {
+#featuredIn>p:first-child {
     color: #B5460F;
     font-weight: bold;
 }
