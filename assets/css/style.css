@@ -2,6 +2,7 @@
 
 /* ***** Definisco i TAG *****  */
 body {
+    margin: 0;
     font-family: "Merriweather", serif;
     font-weight: 400;
     line-height: 1.5;
